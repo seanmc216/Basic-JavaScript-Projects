@@ -7,6 +7,7 @@ document.write("\"Be who you are and say what you feel, " + "because those who m
 
 var B = " Mars " + "ice cream. "
 document.write(B);
+document.write(A + B);
 
 var Country = "USA", National_Park = "Zion", Beach = "Big Sur", Island = "Catalina Island"; Landmark = "Golden Gate Bridge";
 document.write(Beach + " "); //Assign multiple variables in one statement.
