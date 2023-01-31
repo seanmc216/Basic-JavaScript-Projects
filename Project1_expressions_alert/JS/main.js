@@ -26,3 +26,9 @@ document.write(Landmark + " ");
 
 document.write(21 * 6); //A statement containing an expression.
 
+function myFunction(p1, p2) {
+    return p1 * p2;
+}
+document.getElementById("demo").innerHTML = myFunction(4, 3);
+document.getElementById("demo").style.color = "red";
+
